@@ -1,0 +1,67 @@
+.thumb-Images{padding:0}
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+  }
+  
+  .thumb {
+    height: 105px;
+    width: 100px;
+    border: 1px solid #000;
+  }
+  
+  ul.thumb-Images li {
+    width: 150px;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+  }
+  
+  .img-wrap {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+  }
+  
+  .img-wrap .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    /* background-color: #ff0000; */
+    /* padding: 5px 2px 2px; */
+    padding: 5px;
+    color: #ff0000;
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 1;
+    font-size: 25px;
+    line-height: 10px;
+    border-radius: 50%;
+  }
+  
+  .img-wrap:hover .close {
+    color:#000
+  }
+  
+  .FileNameCaptionStyle {
+    font-size: 0.75rem;
+    margin-top: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 120px;
+  }
